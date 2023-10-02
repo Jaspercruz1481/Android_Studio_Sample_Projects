@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:textColor="@color/white">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="100dp"
+        android:text="MOTORTECH"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHighlight="#A95CB6"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="226dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#06A9F3"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_make"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make: "
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_make_fill"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0AA8EF"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model: "
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_model_fill"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0AA8EF"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_reg_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg Date: "
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_reg_date_fill"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0AA8EF"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_transmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transmission: "
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_text_transmission_fill"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0AA8EF"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AIRBLADE 160"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK 160"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEAT"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PCX160"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NMAX"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TMAX"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SNIPER 155"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MIO GEAR S"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_theme1"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:text="THEME 1"
+                android:textColor="#068CF6" />
+
+            <RadioButton
+                android:id="@+id/radio_theme2"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:text="THEME 2"
+                android:textColor="#068CF6" />
+
+            <RadioButton
+                android:id="@+id/radio_theme3"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="THEME 3"
+                android:textColor="#068CF6" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
